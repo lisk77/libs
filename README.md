@@ -1,2 +1,2 @@
 # libs
-Libraries that I write
+A collection of libraries that I wrote sometime and also some translations
