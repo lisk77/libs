@@ -22,8 +22,8 @@ nouns = ["content", "your mom", "the shmoo", "API", "the BJT man", "aesthetics",
          "beats", "dopamine", "fedora", "neural net", "comments", "ports", "you. Yes you", "mixtape", "[REDACTED]", "hot tub", "paperwork", "Nerf", "cyber-doobie", "the 1%", "the Matrix", "variables", "IP address"]
 
 def flavortext():
-    if randrange(0,2) == 0: l = constructiveVerbs; col = "green"
-    else: l  = destructiveVerbs; col = "red"
+    if randrange(0,2) == 0: l = constructiveVerbs
+    else: l  = destructiveVerbs
     
     r,n = randrange(0,len(l)+1), randrange(0,len(nouns)+1)
 
